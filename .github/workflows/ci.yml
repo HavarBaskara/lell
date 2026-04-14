@@ -14,7 +14,7 @@ steps:
 - name: Set up Python
 uses: actions/setup-python@v4
 with:
-python-version: "python3.11"
+python-version: "3.11"
 - name: Install dependencies
 run: |
 pip install -U pip
